@@ -1,5 +1,11 @@
-Install:
-- neue MySQL Datenbank erzeugen
-- mittels SQL-Befehl in ./database/databases.sql Tabellen in Datenbank erstellen 
-- in File »MAZmysql.class.php« Zugangsdaten für Datenbank einfügen.
-- Alle Dateien ins Webverzeichnis kopieren
+personalFAQ
+===========
+
+personalFAQ ist a little tool using ajax to create quick your own frequently asked questions. 
+
+How to use it
+-------------
+
+To install have a look at the wiki.
+
+After installing use the brwoser to create the questions and the answers sorting by your own categories.
