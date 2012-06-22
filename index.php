@@ -3,11 +3,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>personalFAQ</title>
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="css/index.css" rel="stylesheet" type="text/css" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js" type="text/javascript"></script>
-        <script src="index.js" type="text/javascript"></script>
-        <script src="plugins/jquery.elastic.js"></script>
+        <script src="js/index.js" type="text/javascript"></script>
+        <script src="js/jquery.elastic.js"></script>
     </head>
 
     <body>
@@ -18,7 +18,7 @@
         </div>
         <div id="content">
         <?php
-            require_once 'setfaq.class.php';
+            require_once 'classes/setfaq.class.php';
             $faq = new setfaq();
             echo $faq->getSections(0);
         ?>
