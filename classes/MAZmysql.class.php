@@ -1,8 +1,4 @@
 <?php
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
  * Description of setfaq
@@ -16,6 +12,7 @@ class MAZmysql {
     protected $username = '';
     protected $password = '';
     protected $database = '';
+    require_once 'config.inc.php'; //get data above from a foreign file
 
     public $send;
     public $records;
