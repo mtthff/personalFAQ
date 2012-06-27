@@ -1,0 +1,7 @@
+#directorys
+nbproject/
+test/
+
+#files
+faq.php
+classes/config.inc.php
